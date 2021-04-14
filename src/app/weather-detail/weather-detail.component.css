@@ -1,0 +1,29 @@
+
+body,html{
+    height: 100%;
+}
+.card
+{
+    width: 190px;
+    height: 200px;  
+    margin-left: 5%;
+    font-family: "Arial", sans serif;
+    font-size: 10pt;    
+    border: 1px solid #000;
+}
+.card-header
+{
+    text-align:center;
+    background-color: #fff;
+    padding:10px!important;    
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    
+}
+.card-columns
+{
+    margin-top: 5%;
+}
+.list-group-item {
+    border: 1px solid #fff;
+}

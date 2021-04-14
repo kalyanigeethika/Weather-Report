@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    height: 100%;
+    margin: 0; 
+    background-image: url("./assets/images/sky.jfif");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial", sans serif;
+    font-size: 10pt;
+  }

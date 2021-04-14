@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card-columns">
+  <div class="card" *ngFor="let wct of weathercity">
+    <div class="card-header">Date: {{wct.dt_txt}}</div>
+    <div class="card-body">  
+         
+      <ul class="list-group">
+        <li class="list-group-item">Temp: {{wct.main.temp - 273.51 | number:'1.1'}}&#8451;</li>
+        <li class="list-group-item">Sea Level: {{wct.main.sea_level}} </li>
+      </ul>
+     
+    </div>
+  </div>
+  </div>
+</div>

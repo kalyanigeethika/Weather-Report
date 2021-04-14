@@ -1,0 +1,59 @@
+<div class="container-fluid">
+<div class="card-columns">
+  <div class="card align-items-center">
+    <div class="card-header">{{curDay}}<br/>{{curDate}} {{curMonth}} {{curYear}}</div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><a [routerLink]="['/weather-detail', weathercity1.name]">{{weathercity1.name}}</a></li>
+        <li class="list-group-item">Temp: {{weathercity1.main.temp - 273.15 | number:'1.1'}} &#8451;</li>
+        <li class="list-group-item">Sunrise:{{weathercity1.sys.sunrise}}</li>
+        <li class="list-group-item">Sunset:{{weathercity1.sys.sunset}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card align-items-center">
+    <div class="card-header">{{curDay}}<br/>{{curDate}} {{curMonth}} {{curYear}}</div>
+    <div class="card-body">
+      <ul class="list-group">
+        <li class="list-group-item"><a [routerLink]="['/weather-detail', weathercity2.name]">{{weathercity2.name}}</a></li>
+        <li class="list-group-item">Temp:{{weathercity2.main.temp - 273.15 | number:'1.1'}} &#8451;</li>
+        <li class="list-group-item">Sunrise:{{weathercity2.sys.sunrise}}</li>
+        <li class="list-group-item">Sunset:{{weathercity2.sys.sunset}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card align-items-center">
+    <div class="card-header">{{curDay}}<br/>{{curDate}} {{curMonth}} {{curYear}}</div>
+    <div class="card-body">      
+      <ul class="list-group">
+        <li class="list-group-item"><a [routerLink]="['/weather-detail', weathercity3.name]">{{weathercity3.name}}</a></li>
+        <li class="list-group-item">Temp:{{weathercity3.main.temp - 273.15 | number:'1.1'}} &#8451;</li>
+        <li class="list-group-item">Sunrise:{{weathercity3.sys.sunrise}}</li>
+        <li class="list-group-item">Sunset:{{weathercity3.sys.sunset}}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card align-items-center">
+    <div class="card-header">{{curDay}}<br/>{{curDate}} {{curMonth}} {{curYear}}</div>
+    <div class="card-body">     
+      <ul class="list-group">
+        <li class="list-group-item"><a [routerLink]="['/weather-details', weathercity4.name]">{{weathercity4.name}}</a></li>
+        <li class="list-group-item">Temp:{{weathercity4.main.temp - 273.15 | number:'1.1'}} &#8451;</li>
+        <li class="list-group-item">Sunrise:{{weathercity4.sys.sunrise}}</li>
+        <li class="list-group-item">Sunset:{{weathercity4.sys.sunset}}</li>
+      </ul>
+    </div>
+  </div>  
+  <div class="card align-items-center">
+    <div class="card-header">{{curDay}}<br/>{{curDate}} {{curMonth}} {{curYear}}</div>
+    <div class="card-body">    
+      <ul class="list-group">
+        <li class="list-group-item"><a [routerLink]="['/weather-detail', weathercity5.name]">{{weathercity4.name}}</a></li>
+        <li class="list-group-item">Temp:{{weathercity5.main.temp - 273.15 | number:'1.1'}} &#8451;</li>
+        <li class="list-group-item">Sunrise:{{weathercity5.sys.sunrise}}</li>
+        <li class="list-group-item">Sunset:{{weathercity5.sys.sunset}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
